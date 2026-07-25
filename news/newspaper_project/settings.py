@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     "users.apps.UsersConfig", #new
     'pages.apps.PagesConfig', # new
+    'articles.apps.ArticlesConfig', # new
     # 3rd Party
     'crispy_forms', # new
     "crispy_bootstrap5", #new
@@ -110,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = 'America/New_York' # new
 
 USE_I18N = True
 
